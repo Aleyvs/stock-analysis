@@ -9,18 +9,13 @@ During this analysis we will be helping Steve refactor the previous code we had 
 
 The initial purpose of this project was to help Steve analyse the dataset that includes all stocks on green companies so that his parents can take an informed decison on where it's best to invest. Taking a look at the resutls from 12 differet companies through the years of 2017 and 2018 the best option for investments would be to divide their investments between ENPH and RUN. Both this companies show growth during both years and in an important amount. 
 
- ![2017_Results](Resources/2017_results.png)    ![2018_Results](Resources/2018_results.png)              
- 
+ ![2017_Results](Resources/2017_results.png)    ![2018_Results](Resources/2018_results.png)     
 
 Steve's parents can now divide their investments between more than one company and not have all their eggs in one basket. Also, Steve can keep using the code in upcomming years to keep an eye on how every company is doing and make an informed decision every year.
 
 ### Original vs Refactored Script
 
 Another purpose of this project was to help Steve create a better versioin of the code that will do the analysis in a more efficient way. With the original script the code goes over all the data 12 times, and brings the information out for one company at a time until it finishes. On the other hand, the refractored code goes into the data only once and uses the stock TickerIndex to travel through the data.
-
-## Summary
-
-
 
 The original script runs the data for 2017 in a little over half a second vs 0.09 seconds for the refractored script. In a similar manner 2018 data for the origial script runs in 0.55 seconds and the refactored only takes 0.1 seconds. 
 
@@ -32,3 +27,13 @@ The original script runs the data for 2017 in a little over half a second vs 0.0
 
 Maybe with a dataset of this size the time difference is not very significant. But if Steve's parents ever want to broaden their options and see a report of more companies the refactored code only takes 20% of the time the original code takes to run. 
 
+## Summary
+
+ ### Advantages and disadvantages of refactoring code
+
+The main advantage of refactoring code will always be making the code more efficient. This gives the oportuninty of running a script in less time, or getting infomration faster. Also, refactoring to make a code more comprenhensible and easier to maintain when different coders work on the same code is a huge advantage. 
+A big disadvantage could be that it could introduce errors or bugs into the code or make it less efficient, and refactoring code is very time consuming, we have to be aware that the chagne made will be valuable in comprison with the man hrs spent refactoring it.
+
+### Pros and cons applied to refactoring the original VBA script
+
+Applying the above points to our refactor work I would say that it is not benefficial in the time vs bennefit comparison. If Steve were paying someone to refactor the code it would not be an insignificant cost for the benefit of a fraction of a second. Maybe in this situation keeping the original code could work just as well.
