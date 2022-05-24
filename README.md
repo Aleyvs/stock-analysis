@@ -16,6 +16,10 @@ Steve's parents can now divide their investments between more than one company a
 ### Original vs Refactored Script
 
 Another purpose of this project was to help Steve create a better version of the code that will do the analysis in a more efficient way. With the original script the code goes over all the data 12 times, and brings the information out for one company at a time until it finishes. On the other hand, the refactored code goes into the data only once and uses the stock TickerIndex to travel through the data.
+
+#### Original Code - Refactored Code
+<img src= "Resources/original_code.png" alt="Original Code" width="380"> <img src= "Resources/refactored_code.png" alt="Refactored Code" width="450">
+
 The original script runs the data for 2017 in a little over half a second vs 0.09 seconds for the refactored script. In a similar manner 2018 data for the original script runs in 0.55 seconds and the refactored only takes 0.1 seconds.
 
 #### 2017 Original vs 2017 Refactored
